@@ -12,7 +12,7 @@ version 0.9 (2020-03-30)
 - moved extension local to imexam 
 - cleanup of travis tests and general package reorg
 - renamed xpa extension for compatibility and updated to version 2.1.19
-- added option for center of mass to aperature photometry centering
+- added option for center of mass to aperture photometry centering
 - update aper_phot to return tuple of photometry information without plotting
 - optional error array can be sent to aper_phot when using without plotting
 - updated example jupyter notebooks to be compatible with current functionality
@@ -68,7 +68,7 @@ version 0.7.0 (2017-01-19)
 - fixed a text error in the display_help() so that now the correct version loads the documentation
 - Windows users can now install from source. The setup will ignore the cython and xpa necessary to build the DS9 interaction, and users will only be able to use the Ginga HTML5 window, they can also use the Imexamine() functions without any graphical interface.
 - Documentation updates, mostly specific information for Windows users
-- Added python 3.6 to the test matrix as well as apveyor for the windows build
+- Added python 3.6 to the test matrix as well as appveyor for the windows build
 - Updated XPA module to v2.1.18
 - Made fits checker smarter to deal with older simple fits files where EXTEND is true but there are no extensions
 - fixed bug in fits loader for ds9 multi-extension FITS files, made load_fits() prefer the extension specified in the key rather than the image name
@@ -80,7 +80,7 @@ version 0.6.4dev (unreleased)
 - fixed a text error in the display_help() so that now the correct version loads the documentation
 - Windows users can now install from source. The setup will ignore the cython and xpa necessary to build the DS9 interaction, and users will only be able to use the Ginga HTML5 window, they can also use the Imexamine() functions without any graphical interface.
 - Documentation updates, mostly specific information for Windows users
-- Added python 3.6 to the test matrix as well as apveyor for the windows build
+- Added python 3.6 to the test matrix as well as appveyor for the windows build
 - Updated XPA module to v2.1.18
 - Made fits checker smarter to deal with older simple fits files where EXTEND is true but there are no extensions
 - fixed bug in fits loader for ds9 multi-extension FITS files, made load_fits() prefer the extension specified in the key rather than the image name
